@@ -1,0 +1,26 @@
+different ways of organizing data on your computer that can be used effectively    
+
+constant time O(1): example : if you want to access any element from array using index 
+--whatever the index maybe it will need the same time constant time
+
+linear time -- loop through array ele O(N)
+
+logarithmic time-- binary search O(log n)
+
+looking at every array index twice O(N^2)
+
+exponential time complexity -- double recursion 
+
+ main problem divided into sub problem use recursion
+
+ recursion time complexity worst because use stack 
+ in factorial prefer loop 
+
+
+
+# to remove spaces from the input and output
+rstrip() ---> remove space from right side
+lstrip() ----> remove space from right side
+strip() ----> remove spaces from both sides
+ example :
+scity=city.strip()
